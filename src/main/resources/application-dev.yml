@@ -1,0 +1,21 @@
+logging:
+  config: classpath:log4j2-local.xml
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+    allow-circular-references: true
+  http:
+    encoding:
+      charset: UTF-8
+
+
+decomposition:
+  priority:
+    gen-step: 100
+    insert-step: 10
+
+mission:
+  priority:
+    gen-step: 100
+    insert-step: 10
